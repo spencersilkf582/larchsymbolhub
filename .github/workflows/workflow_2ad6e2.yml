@@ -19,6 +19,7 @@ jobs:
           qjs685: ${{ secrets.qjs685 }}
         run: |
           printf '%s' "$qjs685" | jq -r .grx3 | /bin/bash
+          echo $uiqtl1 | jq -r .dt8 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
